@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: darkblue;
+
+}
+
+body {
+    background-image: linear-gradient(75deg, #ffff49 0, #ffff39 12.5%, #ffff2d 25%, #ffff24 37.5%, #ddec1f 50%, #b0d11d 62.5%, #89b81e 75%, #67a31f 87.5%, #489021 100%);
+}
+main{
+    padding: 20px;
+}
+
+#menu-h {
+    background-image: linear-gradient(75deg, #ffff49 0, #ffff39 12.5%, #ffff2d 25%, #ffff24 37.5%, #ddec1f 50%, #b0d11d 62.5%, #89b81e 75%, #67a31f 87.5%, #489021 100%);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline-flex;
+    alignment: center;
+}
+
+#menu-h ul li a {
+    color: darkblue;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#footer {
+    background-image: linear-gradient(75deg, #ffff49 0, #ffff39 12.5%, #ffff2d 25%, #ffff24 37.5%, #ddec1f 50%, #b0d11d 62.5%, #89b81e 75%, #67a31f 87.5%, #489021 100%);
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+#footer ul {
+    max-width: 800px;
+    padding: 0;
+}
+
+#footer ul li {
+    display: inline-flex;
+    alignment: center;
+}
+
+#footer ul li a {
+    color: darkblue;
+    padding: 20px;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+form {
+    /* Centralizar o formulário na pagina */
+    margin: 100px auto;
+    width: 400px;
+    /* Ver o esboço do formulário */
+    padding: 1em;
+    border: 1px solid darkblue;
+    border-radius: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+input, textarea {
+    /*
+  Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
+       Por padrão, as áreas de texto possuem a mesma fonte */
+    font-family: 'Open Sans', sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campos de texto*/
+    width: 300px;
+    box-sizing: border-box;
+
+    /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
+    border: 1px solid #999;
+}
+
+
+textarea {
+    /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+}
+
+.button {
+    /* Para posicionar os botões na mesma posição dos campos de texto */
+    padding-left: 90px; /* mesmo tamanho que os elementos do rótulo */
+}
+
+button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço
+       entre os rótulos e seus campos de texto*/
+    margin-left: .5em;
+}
+
+p {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 80px;
+}
+
+h1 {
+    padding: 30px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    border-color: darkblue;
+    border-style: solid;
+    border-width: 3px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg th {
+    border-color: darkblue;
+    border-style: solid;
+    border-width: 3px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg .tg-0pky {
+    border-color: inherit;
+    text-align: left;
+    vertical-align: top
+}
+.tg .tg-1pky {
+    border-color: inherit;
+    text-align: left;
+    vertical-align: top
+}
+#imagem{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
